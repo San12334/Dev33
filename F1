@@ -12,3 +12,23 @@ git branch
 git config --global alias.b "branch"
 git b
 
+POP = cut
+===
+git stash pop
+git stash pop stash@{x}
+
+Apply = copy
+=====
+git stash apply
+git stash apply stash@{x}
+
+Drop = delete
+=====
+git stash drop
+git stash drop stash@{x}
+
+
+
+Tag's
+=======
+
