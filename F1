@@ -12,47 +12,6 @@ git branch
 git config --global alias.b "branch"
 git b
 
-git commit -m "Test commit"
-git config --global alias.cmt "commit -m "Test commit""
-git cmt
-
-git config --list
-git config --global alias.cl "config --list"
-git cl
-
-
-git config --global --unset alias.s
-
-
-conflicts
-==========
-manual edit
-git add, commit
-
-central to local
-=================
-open conflict file and edit it
-git add .
-git rebase --continue
-git commit -m "label"
-git rebase --continue
-
-merge vs rebase
-================
-git mrege branch-name
-git rebase branch-name
-
-.gitignore
------------
-file1
-file2
-
-Stash
-=====
-git stash list
-git stash save "label"
-git stash show stash@{x}
-git stash show -p stash@{x}
 
 POP = cut
 ===
