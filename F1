@@ -1,0 +1,14 @@
+Alias
+======
+git status
+git config --global alias.s "status"
+git s
+
+git log --oneline
+git config --global alias.l1 "log --oneline"
+git l1
+
+git branch
+git config --global alias.b "branch"
+git b
+
