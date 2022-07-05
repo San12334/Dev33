@@ -12,7 +12,6 @@ git branch
 git config --global alias.b "branch"
 git b
 
-
 POP = cut
 ===
 git stash pop
@@ -31,3 +30,5 @@ git stash drop stash@{x}
 
 
 Tag's
+=======
+
