@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Alias
 ======
 git status
@@ -7,3 +8,14 @@ git s
 git log --oneline
 git config --global alias.l1 "log --oneline"
 git l1
+=======
+Alias
+======
+git status
+git config --global alias.s "status"
+git s
+
+git log --oneline
+git config --global alias.l1 "log --oneline"
+git l1
+>>>>>>> ef42fdd (update)
